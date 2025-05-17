@@ -21,6 +21,6 @@ def generate_qr(data, filename="qrcode.png"):
     print(f"QR Code saved as {filename}")
 
 # Example usage
-if _name_ == "_main_":
+if __name__ == "__main__":
     data = input("Enter data or URL for QR code: ")
     generate_qr(data)
